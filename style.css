@@ -1,0 +1,96 @@
+body{
+  margin: 0;
+  padding: 0;
+  
+}
+#home{
+  width: 100vw;
+  height: 100vh;
+}
+nav{
+  align-items: center
+}
+#logo{
+  display: inline-flex;
+  align-items: center;
+  margin-left: 10px;
+  
+  
+  
+}
+#logo-pic{
+  width:7%;
+  display: inline;
+}
+#logo-text{
+  display: inline;
+  font-size:25px ;
+  color: black;
+  
+}
+#navi{
+  float: right;
+  margin-top: -60px;
+  display: inline-block;
+  margin-right: 90px;
+ 
+}
+a{
+  display: inline-block;
+  margin-left: 40px;
+  text-decoration: none;
+  color: black;
+}
+#profile{
+  width: 35%;
+  margin-left: 10px;
+  transition: 1s;
+ margin-top: 0;
+ padding-top: 0;
+ 
+}
+#profile:hover{
+  transform: scale(1.01);
+  box-shadow: 0px 0px 20px #B61B19;
+  margin-left: 35px;
+}
+#follow{
+  border:1px black solid;
+  padding: 0px 10px;
+  border-radius:30px ;
+}
+#content{
+  display: inline;
+  float: right;
+  margin-top: 60px;
+  margin-right: 150px;
+}
+#con-1{
+  font-size: 25px;
+  font-weight: 100;
+}
+#name{
+  transition: 1s;
+}
+#name:hover{
+  margin-left: 40px;
+  transform: scale(1.2);
+  text-shadow: 0px 0px 10px #000;
+}
+#con-2{
+  font-weight: 100;
+}
+#con-3{
+  font-size: 20px;
+  font-weight: 100;
+ transition: 1s
+}
+#con-3:hover{
+  margin-left: 80px;
+  transform: scale(1.2);
+  text-shadow: 0px 0px 10px #000;
+}
+h1{
+  margin: 0;
+  padding: 0;
+}
